@@ -1,7 +1,25 @@
 import { Box, Flex } from "@chakra-ui/react"
+import { useState } from "react"
 import '../../../css/versionMobile.css'
 
 const VersionMobile = () => {
+
+    const [toggle1, setToggle1] = useState(false)
+
+    const handleClick1 = () => {
+        setToggle1(!toggle1)
+    }
+    const [toggle2, setToggle2] = useState(false)
+
+    const handleClick2 = () => {
+        setToggle2(!toggle2)
+    }
+    const [toggle3, setToggle3] = useState(false)
+
+    const handleClick3 = () => {
+        setToggle3(!toggle3)
+    }
+
     return (
         <Box
             display="flex"
@@ -13,7 +31,7 @@ const VersionMobile = () => {
                 mt="70px"
                 >
                 <div className="card2">
-                    <div className="content2">
+                    <div className={toggle1 ? "content2 rotacion" : "content2"} onClick={handleClick1}>
                         <div className="back2">
                         <div className="back-content2">
                             <strong>Titulos Academicos</strong>
@@ -50,7 +68,7 @@ const VersionMobile = () => {
                 mt="30px"
                 >
                 <div className="card2">
-                    <div className="content2">
+                    <div className={toggle2 ? "content2 rotacion" : "content2"} onClick={handleClick2}>   
                         <div className="back2">
                         <div className="back-content2">
                             <strong>Formas de Trabajar</strong>
@@ -82,7 +100,7 @@ const VersionMobile = () => {
                 mt="30px"
                 >
                 <div className="card2">
-                    <div className="content2">
+                    <div className={toggle3 ? "content2 rotacion" : "content2"} onClick={handleClick3}>
                         <div className="back2">
                         <div className="back-content2">
                             <strong>Experiencias Laborales</strong>

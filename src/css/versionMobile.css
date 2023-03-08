@@ -64,10 +64,15 @@
   .back-content2 p {
     font-family: var(--second-font);
   }
-  .card2:active .content2 {
+
+  .rotacion {
     transform: rotateY(180deg);
   }
-  
+
+  .rotacion2 {
+    transform: rotateY(-180deg);
+  }
+
   @keyframes rotation_481 {
     0% {
       transform: rotateZ(0deg);
