@@ -10,7 +10,7 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h={["410px","410px","380px"]}
+            h={["425px","425px","380px"]}
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"

@@ -24,7 +24,7 @@ const Comentarios = () => {
 
     return (
         <Box
-            h="85vh"
+            h={["75vh","85vh","85vh"]}
             >
                 <Heading
                     textAlign="center"
