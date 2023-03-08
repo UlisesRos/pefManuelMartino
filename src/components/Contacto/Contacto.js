@@ -11,7 +11,7 @@ const Contacto = () => {
             justifyContent="start"
             alignItems="center"
             bg="--first-color"
-            h="125vh"
+            h={["105vh","120vh","125vh"]}
             >
             <Heading
                 textAlign="center"

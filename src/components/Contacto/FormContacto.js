@@ -4,8 +4,8 @@ import "../../css/FormContacto.css"
 const FormContacto = () => {
     return (
         <Flex
-            h="90vh"
-            w={["90%", "80%","60%"]}
+            h={["80vh","90vh","90vh"]}
+            w={["90%","80%","60%"]}
             flexDir="column"
             border="solid black 1px"
             borderRadius="10px"
