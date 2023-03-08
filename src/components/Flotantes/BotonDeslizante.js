@@ -7,7 +7,7 @@ const BotonDeslizante = () => {
             href="#"
             position="fixed"
             zIndex="1000"
-            left="25px"
+            left={["20px","35px","35px"]}
             bottom="30px"
             >
                 <Image 
