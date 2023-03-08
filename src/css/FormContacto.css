@@ -1,0 +1,77 @@
+/*.****** CONTACT FORM ******.*/
+.contact-form {
+    padding: 1rem;
+    width: 70%;
+}
+
+.contact-form > * {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea{
+    font-size: .85rem;
+    font-family: var(--second-font);
+    font-weight: bold;
+    border-radius: .5rem;
+    color: var(--first-color)
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form select option {
+    font-weight: bold;
+}
+
+.contact-form input[type="submit"] {
+    margin: 1rem auto;
+    width: 6rem;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    font-weight: bold;
+}
+.contact-form input[type="submit"]:hover {
+    opacity: .75;
+}
+
+.contact-form *::placeholder {
+    color: var(--grey-dark-color);
+}
+
+.contact-form-response {
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    background-color: var(--white-color);
+    border-radius: .2rem;
+}
+
+.contact-form-response h3 {
+    color: var(--black-color);
+    margin-bottom: 1rem;
+}
+
+.contact-form-response img {
+    width: 200px;
+}
+
+.modal#gracias:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .contact-form {
+        width: 100%;
+    }
+}

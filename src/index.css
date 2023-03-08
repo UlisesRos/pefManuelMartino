@@ -1,0 +1,29 @@
+/*.************ VARIABLES ************.*/
+:root {
+  /*Colores*/
+  --first-color: #1A5B38;
+  --second-color: #3E96B2;
+  --black-color: #000000;
+  --grey-light-color: #C0C0C0;
+  --white-color: #ffffff;
+
+  /*Tipografia*/
+  --first-font: 'Roboto', sans-serif;
+  --second-font: 'Nunito', sans-serif;
+}
+
+/*.************ RESET ************.*/
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+  font-family: var(--first-font);
+}
+body {
+  overflow-x: hidden;
+  color: var(--white-color);
+  background-color: var(--black-color);
+} 
