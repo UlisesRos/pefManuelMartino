@@ -10,12 +10,15 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h={["425px","425px","380px"]}
+            h="430px"
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"
             boxShadow="dark-lg"
             className={modalDesc ? "scale-in-center" : "none"}
+            display="flex"
+            flexDir="column"
+            justifyContent="center"
             >
             <Flex
                 flexDir="column"

@@ -4,7 +4,7 @@ import Presencial from "./Presencial/Presencial"
 const SeccionEntrenamiento = () => {
     return (
         <Box
-            height={["60vh","70vh","70vh"]}
+            height="70vh"
             id="entrenamiento"
             >
             <Heading

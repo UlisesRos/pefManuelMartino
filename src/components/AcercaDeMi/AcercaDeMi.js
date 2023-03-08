@@ -7,7 +7,7 @@ const AcercaDeMi = () => {
     return (
         <Box
             id="acercaDeMi"
-            h={["120vh","130vh","140vh"]}
+            p="20px 0 50px 0"
             bg="--first-color"
             >
             <Heading

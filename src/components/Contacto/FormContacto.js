@@ -4,13 +4,13 @@ import "../../css/FormContacto.css"
 const FormContacto = () => {
     return (
         <Flex
-            h={["80vh","90vh","90vh"]}
+            h={["600px","650px","650px"]}
             w={["90%","80%","60%"]}
             flexDir="column"
             border="solid black 1px"
             borderRadius="10px"
             boxShadow="dark-lg"
-            justify="start"
+            justify="center"
             color="--white-color"
             fontFamily="--second-font"
             align="center"
