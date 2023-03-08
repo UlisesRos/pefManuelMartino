@@ -4,7 +4,7 @@ import Presencial from "./Presencial/Presencial"
 const SeccionEntrenamiento = () => {
     return (
         <Box
-            height="70vh"
+            p="10px 0 50px 0"
             id="entrenamiento"
             >
             <Heading

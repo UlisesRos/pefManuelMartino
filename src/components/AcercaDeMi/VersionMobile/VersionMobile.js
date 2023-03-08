@@ -37,7 +37,6 @@ const VersionMobile = () => {
                             <strong>Titulos Academicos</strong>
                             <p>Hacer Click</p>
                         </div>
-                        <button>Ver</button>
                         </div>
                         <div className="front2 rotacion">
                         
