@@ -12,10 +12,12 @@ const Comentarios = () => {
         },
         {
             img: "https://scontent.fros1-1.fna.fbcdn.net/v/t1.18169-9/30124888_10214166247662850_2516123376820792208_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGvRlxoxuyQ0kRVdYrBA90OoGuTEwitZ_Gga5MTCK1n8U-OKt_7cOSWy26J9Pf7UpFsYKEyGmyWvElyHsoiw6lf&_nc_ohc=OvC2MnSo2WQAX9G-X7k&_nc_ht=scontent.fros1-1.fna&oh=00_AfAFP4mdhAcSMkHNjo8SXsFSZENFTIMFMIKUjYvFAXKZ8w&oe=6430569C",
+            nombre: "Joni Gil",
             comentario: "Me siento acompañado en todo momento, estoy desde que comenzo y la verdad me siento muy comodo entrenando con el."
         },
         {
             img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/274376175_10224715440011462_5571726092487782646_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF4ew_p0WW2ud5ouT6WRbAwnHKGlzeL56WccoaXN4vnpRYT-30CanrV7mCl7jwu8hkewr-G11ccNOzCzLloJ-aA&_nc_ohc=O1venMzZIUYAX9mVfMB&_nc_ht=scontent.fros1-1.fna&oh=00_AfBZz2cEa_F_g2PuuHJiXWzyD7EkHMBxp7DEeVEh-4kj6A&oe=640D205D",
+            nombre: "Nicolas Colombo",
             comentario: "Me gusta que dependiendo de lo que estes buscando, esa es la forma en la que te entrena."
         }
     ]
