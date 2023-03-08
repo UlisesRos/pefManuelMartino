@@ -39,7 +39,7 @@ const VersionMobile = () => {
                         </div>
                         <button>Ver</button>
                         </div>
-                        <div className="front2">
+                        <div className="front2 rotacion">
                         
                         <div className="img2">
                             <div className="circle2">
@@ -75,7 +75,7 @@ const VersionMobile = () => {
                             <p>Hacer Click</p>
                         </div>
                         </div>
-                        <div className="front2">
+                        <div className="front2 rotacion">
                         
                         <div className="img2">
                             <div className="circle2">
@@ -108,7 +108,7 @@ const VersionMobile = () => {
                         </div>
                         <button>Ver</button>
                         </div>
-                        <div className="front2">
+                        <div className="front2 rotacion">
                         
                         <div className="img2">
                             <div className="circle2">

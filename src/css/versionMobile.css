@@ -70,9 +70,6 @@
     transform: rotateY(180deg);
   }
 
-  .rotacion2 {
-    transform: rotateY(-180deg);
-  }
 
   @keyframes rotation_481 {
     0% {
@@ -85,7 +82,6 @@
   }
   
   .front2 {
-    transform: rotateY(180deg);
     color: white;
   }
   
