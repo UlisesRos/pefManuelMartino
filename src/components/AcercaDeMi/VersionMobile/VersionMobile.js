@@ -20,6 +20,8 @@ const VersionMobile = () => {
         setToggle3(!toggle3)
     }
 
+
+
     return (
         <Box
             display="flex"
@@ -34,7 +36,7 @@ const VersionMobile = () => {
                 >
                 <div className="card2">
                     <div className={toggle1 ? "content2 rotacion" : "content2"} onClick={handleClick1}>
-                        <div className="back2">
+                        <div className="back2" style={{display: toggle1 ? "none" : "block"}}>
                         <div className="back-content2">
                             <strong>Titulos Academicos</strong>
                             <p>Hacer Click</p>
