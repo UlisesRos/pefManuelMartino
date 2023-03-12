@@ -24,7 +24,7 @@ const FormContacto = () => {
                 >
                 Dejanos tus datos y nos pondremos en contacto!
             </Text>
-            <form className="contact-form" action="https://formsubmit.co/ulisesros70@gmail.com" method="POST">
+            <form className="contact-form" action="https://formsubmit.co/manumartino76@gmail.com" method="POST">
                 <label
                     htmlFor="nombre"
                     >
