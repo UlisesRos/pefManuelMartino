@@ -75,7 +75,7 @@ const VersionMobile = () => {
                 >
                 <div className="card2">
                     <div className={toggle2 ? "content2 rotacion" : "content2"} onClick={handleClick2}>   
-                        <div className="back2">
+                        <div className="back2" style={{display: toggle2 ? "none" : "block"}}>
                         <div className="back-content2">
                             <strong>Formas de Trabajar</strong>
                             <p>Hacer Click</p>
@@ -108,7 +108,7 @@ const VersionMobile = () => {
                 >
                 <div className="card2">
                     <div className={toggle3 ? "content2 rotacion" : "content2"} onClick={handleClick3}>
-                        <div className="back2">
+                        <div className="back2" style={{display: toggle3 ? "none" : "block"}}>
                         <div className="back-content2">
                             <strong>Experiencias Laborales</strong>
                             <p>Hacer Click</p>

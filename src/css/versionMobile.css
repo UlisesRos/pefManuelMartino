@@ -35,16 +35,6 @@
     overflow: hidden;
   }
 
-  .back2::before {
-    position: absolute;
-    content: ' ';
-    display: block;
-    width: 200px;
-    height: 200%;
-    background: linear-gradient(90deg, transparent, #ffffff, #ffffff, #ffffff, #ffffff, transparent);
-    animation: rotation_481 5000ms infinite linear;
-  }
-  
   .back-content2 {
     position: absolute;
     width: 99%;
