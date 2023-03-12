@@ -24,6 +24,7 @@ const Presencial = () => {
                 width={["300px", "400px", "800px"]}
                 height={["230px", "230px", "260px"]}
                 mt="40px"
+                data-aos="flip-down"
                 _hover={{
                     transform: "scale(1.05)",
                     transition: "all 0.3s",

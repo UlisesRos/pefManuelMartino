@@ -21,7 +21,6 @@ const SeccionEntrenamiento = () => {
                 flexDir="column"
                 justifyContent="center"
                 align="center"
-                data-aos="flip-down"
                 >
                 <Presencial />
             </Flex>

@@ -17,6 +17,9 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
             bg="--white-color"
             boxShadow="dark-lg"
             className={modalInfo ? "scale-in-center" : "none"}
+            display="flex"
+            flexDir="column"
+            justifyContent="center"
             >
             <Flex
                 flexDir="column"
