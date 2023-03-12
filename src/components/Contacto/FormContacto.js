@@ -31,7 +31,7 @@ const FormContacto = () => {
                     Nombre y Apellido
                 </label>
                 <input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre y apellido" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$" required/>
-
+                <input type="hidden" name="_autoresponse" value="Recibimos correctamente tu mail. ¡Te responderemos a la brevedad!" />
                 <label
                     htmlFor="email"
                     >
