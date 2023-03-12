@@ -19,7 +19,7 @@ const TarjetaComentarios = ({prod}) => {
                     >
                     <Image
                         src={prod.img}
-                        alt="#"
+                        alt={prod.alt}
                         maxH={["150px","200px","200px"]}
                         maxW={["150px","200px","200px"]}
                         border="solid black 1px"

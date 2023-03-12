@@ -1,7 +1,7 @@
 .card2 {
     overflow: visible;
     width: 350px;
-    height: 200px;
+    height: 300px;
     cursor: pointer;
   }
   
@@ -77,7 +77,7 @@
     }
   
     0% {
-      transform: rotateZ(180deg);
+      transform: rotateZ(360deg);
     }
   }
   
@@ -106,11 +106,15 @@
   .description2 {
     box-shadow: 0px 0px 10px 5px #00000088;
     width: 100%;
+    height: 100vh;
     padding: 10px;
     background-color: #00000099;
     backdrop-filter: blur(5px);
     border-radius: 5px;
     font-family: var(--second);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .description2 ul li{
@@ -135,14 +139,14 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #ffbb66;
+    background-color: black;
     position: relative;
     filter: blur(15px);
     animation: floating 2600ms infinite linear;
   }
   
   #bottom2 {
-    background-color: #ff8866;
+    background-color: black;
     left: 50px;
     top: 0px;
     width: 150px;
@@ -151,7 +155,7 @@
   }
   
   #right2 {
-    background-color: #ff2233;
+    background-color: black;
     left: 160px;
     top: -80px;
     width: 30px;
@@ -177,7 +181,7 @@
     .card2 {
         overflow: visible;
         width: 290px;
-        height: 200px;
+        height: 250px;
         cursor: pointer;
     }
 }

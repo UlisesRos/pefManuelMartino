@@ -25,6 +25,7 @@ const AcercaDeMi = () => {
                 >
                 <Flex
                     m="70px 0 0 50px"
+                    data-aos="fade-right"
                     >
                     <div className="card">
                         <div className="content">
@@ -46,11 +47,12 @@ const AcercaDeMi = () => {
 
                             <div className="front-content">
                                 <div className="description">
-                                    <h3>Aca va una descripcion de como te gusta entrenar</h3>
                                     <ul>
-                                        <li>isef</li>
-                                        <li>blabla</li>
-                                        <li>blabla</li>
+                                        <li>➤ Profesor Nacional de Educación Física (Isef N°11)</li>
+                                        <li>➤ Preparador Físico (Grupo 757)</li>
+                                        <li>➤ Preparador Físico de Fútbol (APEFFA)</li>
+                                        <li>➤ Instructor de “Entrenamiento de la Musculación Deportiva” (Grupo 757)</li>
+                                        <li>➤ Instructor de “Fuerza y Acondicionamiento Físico”. Nivel 1 y 2 (Distrito Fuerza)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -61,6 +63,7 @@ const AcercaDeMi = () => {
                 <Flex
                     m="30px 50px 0 0"
                     justify="end"
+                    data-aos="fade-left"
                     >
                     <div className="card">
                         <div className="content">
@@ -82,8 +85,7 @@ const AcercaDeMi = () => {
 
                             <div className="front-content">
                                 <div className="description">
-                                <h3>Aca va una descripcion de como te gusta entrenar</h3>
-                                    <p>blabla</p>
+                                    <p><b>Me dedico al entrenamiento de la fuerza y el acondicionamiento fisico adaptado a cada persona, segun sus objetivos y posibilidades. Desde deportistas con el fin de optimizar su rendimiento competitivo hasta adultos mayores para mejorar su calidad de vida</b></p>
                                 </div>
                             </div>
                             </div>
@@ -92,6 +94,7 @@ const AcercaDeMi = () => {
                 </Flex>
                 <Flex
                     m="30px 0 0 50px"
+                    data-aos="fade-right"
                     >
                     <div className="card">
                         <div className="content">
@@ -113,11 +116,12 @@ const AcercaDeMi = () => {
 
                             <div className="front-content">
                                 <div className="description">
-                                    <h3>Aca van los lugares donde trabajaste y trabajas</h3>
                                     <ul>
-                                        <li>teseo</li>
-                                        <li>blabla</li>
-                                        <li>blabla</li>
+                                        <li>➤ Entrenador en sector de “Musculación” en Gimnasio “Teseo”. Año 2018-2019</li>
+                                        <li>➤ Entrenador en sector de “Fuerza y Acondicionamiento físico” en Centro de Entrenamiento “Academia Nahual”. Año 2020-2022</li>
+                                        <li>➤ Entrenador en “CDF “Club de Fuerza”. Centro de Entrenamiento. Año 2022 hasta la actualidad.</li>
+                                        <li>➤ Creador de centro de entrenamiento  "Fuerza Integral". Año 2022 hasta la actualidad</li>
+                                        <li>➤ Entrenador personal. Desde año 2020 hasta la actualidad</li>
                                     </ul>
                                 </div>
                             </div>

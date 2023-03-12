@@ -14,6 +14,7 @@ const FormContacto = () => {
             color="--white-color"
             fontFamily="--second-font"
             align="center"
+            data-aos="fade-down"
             >
             <Text
                 fontWeight="bold"
