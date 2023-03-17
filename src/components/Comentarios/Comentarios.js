@@ -6,7 +6,7 @@ const Comentarios = () => {
 
     const productos = [
         {
-            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/330398922_1210156659868697_8994745343612741936_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHzYHJZOZFhKa8leAazuelc_ZvR3rmnapf9m9Heuadql4WjcR076LgbfULJXCg1JRNEzJJ4k0y-SHTfCwRbhOCq&_nc_ohc=djIiYvTs10wAX-qZypF&_nc_ht=scontent.fros1-1.fna&oh=00_AfAD_CRa53C9u45TYm5rnoU8rqq7DzkHg7aWeAekkKaiZA&oe=641282CB",
+            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/336798416_514858207284047_6638100192451003281_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFwnzmY-JeAX8K5-VbF0x0801vbHGA9xYTTW9scYD3FhFpXxmkdDEM4r442Rg6gX5lGnwaNUK9yaL_nAJuQxeCR&_nc_ohc=hiTIfjlwZoQAX_Hglo1&_nc_ht=scontent.fros1-1.fna&oh=00_AfACDsjs8CHRgCi7X31gxb_8FjMfVCescSg4n1zM84KorQ&oe=6419B553",
             nombre: "Ulises Ros",
             comentario: "De los mejores entrenadores de Rosario. Trabaja de manera muy personalizada con cada uno de los que estamos con el",
             alt: "imagen de la persona"
@@ -18,7 +18,7 @@ const Comentarios = () => {
             alt: "imagen de la persona"
         },
         {
-            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-1/274376175_10224715440011462_5571726092487782646_n.jpg?stp=dst-jpg_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeF4ew_p0WW2ud5ouT6WRbAwnHKGlzeL56WccoaXN4vnpRYT-30CanrV7mCl7jwu8hkewr-G11ccNOzCzLloJ-aA&_nc_ohc=DZKu1AShWzkAX-BNR7p&_nc_ht=scontent.fros1-1.fna&oh=00_AfB4ba6-ixwhCK1HvFu0x5zJSQu3nk4qMYSGOWubDCY0Cg&oe=64125D6D",
+            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/328794437_667408831829263_7357133126898612468_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHtbplMltlMqsuHkVHYSCERRS3Myru6Zj5FLczKu7pmPiGZT3ouibAZuC7hIo5KssruLQYLROJci1b2_WiH-gy4&_nc_ohc=y0cLgRtfeJkAX-Aaz1T&_nc_ht=scontent.fros1-1.fna&oh=00_AfDaSCs2LJdN7YlDoiyK9smb3X9SyUz2fy21HXFlaywZNg&oe=64197F3A",
             nombre: "Nicolas Colombo",
             comentario: "Me gusta que dependiendo de lo que estes buscando, esa es la forma en la que te entrena.",
             alt: "imagen de la persona"
