@@ -6,7 +6,7 @@ const Comentarios = () => {
 
     const productos = [
         {
-            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/336798416_514858207284047_6638100192451003281_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFwnzmY-JeAX8K5-VbF0x0801vbHGA9xYTTW9scYD3FhFpXxmkdDEM4r442Rg6gX5lGnwaNUK9yaL_nAJuQxeCR&_nc_ohc=hiTIfjlwZoQAX_Hglo1&_nc_ht=scontent.fros1-1.fna&oh=00_AfACDsjs8CHRgCi7X31gxb_8FjMfVCescSg4n1zM84KorQ&oe=6419B553",
+            img: "https://www.facebook.com/photo/?fbid=5739380696190185&set=a.212195018908808",
             nombre: "Ulises Ros",
             comentario: "De los mejores entrenadores de Rosario. Trabaja de manera muy personalizada con cada uno de los que estamos con el",
             alt: "imagen de la persona"
@@ -18,7 +18,7 @@ const Comentarios = () => {
             alt: "imagen de la persona"
         },
         {
-            img: "https://scontent.fros1-1.fna.fbcdn.net/v/t39.30808-6/328794437_667408831829263_7357133126898612468_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHtbplMltlMqsuHkVHYSCERRS3Myru6Zj5FLczKu7pmPiGZT3ouibAZuC7hIo5KssruLQYLROJci1b2_WiH-gy4&_nc_ohc=y0cLgRtfeJkAX-Aaz1T&_nc_ht=scontent.fros1-1.fna&oh=00_AfDaSCs2LJdN7YlDoiyK9smb3X9SyUz2fy21HXFlaywZNg&oe=64197F3A",
+            img: "https://www.facebook.com/photo/?fbid=10224715440051463&set=a.1490548261756",
             nombre: "Nicolas Colombo",
             comentario: "Me gusta que dependiendo de lo que estes buscando, esa es la forma en la que te entrena.",
             alt: "imagen de la persona"
