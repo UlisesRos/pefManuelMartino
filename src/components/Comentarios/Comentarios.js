@@ -6,7 +6,7 @@ const Comentarios = () => {
 
     const productos = [
         {
-            img: "https://www.facebook.com/photo/?fbid=5739380696190185&set=a.212195018908808",
+            img: "https://pbs.twimg.com/profile_images/1562979614011535360/qM6em2kD_400x400.jpg",
             nombre: "Ulises Ros",
             comentario: "De los mejores entrenadores de Rosario. Trabaja de manera muy personalizada con cada uno de los que estamos con el",
             alt: "imagen de la persona"
@@ -18,7 +18,7 @@ const Comentarios = () => {
             alt: "imagen de la persona"
         },
         {
-            img: "https://www.facebook.com/photo/?fbid=10224715440051463&set=a.1490548261756",
+            img: "https://pbs.twimg.com/profile_images/1543784319742885902/1ouv9waY_400x400.jpg",
             nombre: "Nicolas Colombo",
             comentario: "Me gusta que dependiendo de lo que estes buscando, esa es la forma en la que te entrena.",
             alt: "imagen de la persona"
