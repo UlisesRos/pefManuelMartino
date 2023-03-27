@@ -1,5 +1,5 @@
-import { Box, Flex, ListItem, UnorderedList } from "@chakra-ui/react"
-import imgManu from "../../img/manu.png"
+import { Box, Flex, Heading, ListItem, UnorderedList } from "@chakra-ui/react"
+import imgManu from "../../img/manum.jpeg"
 
 
 const Home = () => {
@@ -23,12 +23,24 @@ const Home = () => {
                     m="0 0 50px 20px"
                     >
                         <Flex
+                            flexDir="column"
+                            align="center"
                             >
+                            <Heading
+                                as="h3"
+                                p="10px 0 20px 0"
+                                fontSize={["1.6rem", "1.9rem","2rem"]}
+                                color="--white-color"
+                                fontFamily="--first-font"
+                                >
+                                Manuel Martino
+                            </Heading>
                             <UnorderedList
                                 display="flex"
                                 flexDir="column"
-                                justifyContent="space-around"
+                                justifyContent="space-evenly"
                                 alignItems="center"
+                                rowGap={["20px","40px","40px"]}
                                 pl="10px"
                                 color="--white-color"
                                 fontFamily="--first-font"

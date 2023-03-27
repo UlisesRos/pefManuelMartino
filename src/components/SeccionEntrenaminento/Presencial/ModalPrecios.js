@@ -81,8 +81,8 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                         fontFamily="--second-font"
                         fontWeight="bold"
                         >
-                        <ListItem>2 entrenamientos semanales: $4800</ListItem>
-                        <ListItem>3 entrenamientos semanales: $5400</ListItem>
+                        <ListItem>2 entrenamientos semanales: $4600</ListItem>
+                        <ListItem>3 entrenamientos semanales: $5200</ListItem>
                     </UnorderedList>
                 </Box>
             </Flex>

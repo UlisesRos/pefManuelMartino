@@ -34,7 +34,7 @@ const Navbar = () => {
                     fontWeight="bold"
                     color="--white-color"
                     >
-                    Manuel Martino
+                    Fuerza Integral
                 </Heading>
                 <Box
                     display={["block", "block", "none"]}
