@@ -54,9 +54,9 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                     </Heading>
                     <UnorderedList
                         mt="5px"
-                        pl="5px"
                         textAlign="center"
                         color="--first-color"
+                        listStyleType="none"
                         >
                         <ListItem>Martes, Miércoles, Jueves, Viernes 9hs</ListItem>
                         <ListItem>Martes, Miércoles, Jueves, Viernes 10hs</ListItem>
@@ -74,10 +74,11 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                     </Heading>
                     <UnorderedList
                         mt="5px"
-                        pl="5px"
                         textAlign="center"
                         color="--first-color"
+                        listStyleType="none"
                         >
+                        <ListItem>Lunes, Miércoles y Viernes 17hs</ListItem>
                         <ListItem>Lunes, Miércoles y Viernes 18hs</ListItem>
                         <ListItem>Lunes, Miércoles y Viernes 19hs</ListItem>
                         <ListItem>Lunes, Miércoles y Viernes 20hs</ListItem>

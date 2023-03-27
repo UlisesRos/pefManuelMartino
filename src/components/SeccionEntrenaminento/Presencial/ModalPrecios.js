@@ -43,11 +43,11 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                     </Heading>
                     <UnorderedList
                         mt="5px"
-                        pl="5px"
                         textAlign="center"
                         color="--second-color"
                         fontFamily="--second-font"
                         fontWeight="bold"
+                        listStyleType="none"
                         >
                         <ListItem>10% OFF Estudiantes</ListItem>
                         <ListItem>10% OFF Jubilados</ListItem>
@@ -75,11 +75,11 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                     </Heading>
                     <UnorderedList
                         mt="5px"
-                        pl="5px"
                         textAlign="center"
                         color="--second-color"
                         fontFamily="--second-font"
                         fontWeight="bold"
+                        listStyleType="none"
                         >
                         <ListItem>2 entrenamientos semanales: $4600</ListItem>
                         <ListItem>3 entrenamientos semanales: $5200</ListItem>
