@@ -1,12 +1,12 @@
 import { Box, Flex, Heading, ListItem, UnorderedList } from "@chakra-ui/react"
-import imgManu from "../../img/manum.jpeg"
+import imgManu from "../../img/gimnasio.png"
 
 
 const Home = () => {
     return (
         <Box
             width="100%"
-            height="70vh"
+            height="80vh"
             backgroundImage={imgManu}
             backgroundPosition="center"
             opacity="0.7"
@@ -20,7 +20,7 @@ const Home = () => {
                     height="350px"
                     border="solid black 1px"
                     borderRadius="10px"
-                    m="0 0 50px 20px"
+                    m="50px 0 50px 20px"
                     >
                         <Flex
                             flexDir="column"
