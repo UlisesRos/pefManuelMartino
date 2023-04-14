@@ -42,15 +42,15 @@ const Footer = () => {
                         >
                         Seguinos en las Redes!
                     </Text>
-                    <div class="cardF">
+                    <div className="cardF">
                         <span>Social</span>
-                        <a class="social-link" href="https://www.youtube.com/channel/UCx50jLX2u6ODD9jOLcfqw9w" target="_blank">
+                        <a className="social-link" href="https://www.youtube.com/channel/UCx50jLX2u6ODD9jOLcfqw9w" target="_blank">
                             <img src={youtube}/>
                         </a>
-                        <a class="social-link" href="https://www.instagram.com/pef.manumartino" target="_blank">
+                        <a className="social-link" href="https://www.instagram.com/pef.manumartino" target="_blank">
                             <img src={instagram}/>
                         </a>
-                        <a class="social-link" href="https://www.facebook.com/profile.php?id=100081675554626" target="_blank">
+                        <a className="social-link" href="https://www.facebook.com/profile.php?id=100081675554626" target="_blank">
                             <img src={facebook}/>
                         </a>
                     </div>
