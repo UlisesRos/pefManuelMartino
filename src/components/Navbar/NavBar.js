@@ -1,6 +1,8 @@
-import { Box, Flex, Heading, Image, Link } from "@chakra-ui/react";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { useState } from "react";
-import "../../css/navBar.css"
+import "../../css/navBar.css";
+import iconoFuerza from "../../img/FuerzaIntegral.jfif"
+import iconoFuerzaB from "../../img/iconoFuerzaB.jfif"
 import MenuDesplegable from "./MenuDesplegable";
 import iconHamb from "../../img/menu.png"
 import iconCruz from "../../img/close.png"
@@ -29,13 +31,12 @@ const Navbar = () => {
                 justify="space-between"
                 align="center"
                 >
-                <Heading
-                    fontFamily="--second-font"
-                    fontWeight="bold"
-                    color="--white-color"
+                <Image 
+                    width="150px"
+                    height="50px"
+                    borderRadius="15px"
+                    src={iconoFuerza}/
                     >
-                    Fuerza Integral
-                </Heading>
                 <Box
                     display={["block", "block", "none"]}
                     >
