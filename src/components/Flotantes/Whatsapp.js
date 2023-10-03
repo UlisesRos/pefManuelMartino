@@ -10,7 +10,7 @@ const Whatsapp = () => {
             zIndex="1000"
             >
             <Link
-                href="https://api.whatsapp.com/send?phone=3416948109&text=Hola!&nbspme&nbsppueden&nbspayudar?"
+                href="https://api.whatsapp.com/send?phone=3416948109&text=Hola! Quiero empezar a entrenar en Fuerza Integral. Gracias!&nbspme&nbsppueden&nbspayudar?"
                 target="_blank"
                 >
                 <Image src={icon} alt="icono de Whatsapp" width={['40px','50px','50px']} height={['40px','50px', '50px']}/>

@@ -39,14 +39,14 @@ const Home = () => {
                                 display="flex"
                                 flexDir="column"
                                 justifyContent="space-evenly"
-                                alignItems="center"
+                                alignItems="left"
                                 rowGap={["20px","40px","40px"]}
                                 pl="10px"
                                 color="--white-color"
                                 fontFamily="--first-font"
                                 fontWeight="bold"
                                 >
-                                <ListItem>Entrenador en "Fuerza Integral" y @cdf_theclub</ListItem>
+                                <ListItem>Entrenador en "Fuerza Integral"</ListItem>
                                 <ListItem>Entrenamiento personalizado a todo el mundo 🌎✈️</ListItem>
                                 <ListItem>Profesor de Educación Física y preparador físico 📚</ListItem>
                             </UnorderedList>

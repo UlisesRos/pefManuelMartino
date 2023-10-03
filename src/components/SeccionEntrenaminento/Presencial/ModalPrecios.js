@@ -10,7 +10,7 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h="430px"
+            h="450px"
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"
@@ -81,8 +81,11 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                         fontWeight="bold"
                         listStyleType="none"
                         >
-                        <ListItem>2 entrenamientos semanales: $4600</ListItem>
-                        <ListItem>3 entrenamientos semanales: $5200</ListItem>
+                        <ListItem>1 entrenamientos semanales: $4000</ListItem>
+                        <ListItem>2 entrenamientos semanales: $6400</ListItem>
+                        <ListItem>3 entrenamientos semanales: $7200</ListItem>
+                        <ListItem>4 entrenamientos semanales: $7700</ListItem>
+                        <ListItem>5 entrenamientos semanales: $8500</ListItem>
                     </UnorderedList>
                 </Box>
             </Flex>

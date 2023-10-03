@@ -101,7 +101,7 @@ const Presencial = () => {
                             }}
                             onClick={handleDesc}
                             >
-                            Descuentos
+                            Precios y Desc.
                         </Button>
                     </Flex>
                 </CardBody>

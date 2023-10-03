@@ -11,7 +11,7 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h="430px"
+            h="450px"
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"
@@ -48,7 +48,6 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         fontFamily="--first-font"
                         fontSize="1rem"
                         textAlign="center"
-                        mt="8px"
                         >
                         Turno Mañana
                     </Heading>
@@ -58,8 +57,9 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         color="--first-color"
                         listStyleType="none"
                         >
-                        <ListItem>Martes, Miércoles, Jueves, Viernes 9hs</ListItem>
-                        <ListItem>Martes, Miércoles, Jueves, Viernes 10hs</ListItem>
+                        <ListItem>Lunes a Viernes 9hs</ListItem>
+                        <ListItem>Lunes a Viernes 10hs</ListItem>
+                        <ListItem>Lunes a Viernes 11hs</ListItem>
                     </UnorderedList>
                 </Box>
                 <Box>
@@ -68,7 +68,6 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         fontFamily="--first-font"
                         fontSize="1rem"
                         textAlign="center"
-                        mt="8px"
                         >
                         Turno Tarde
                     </Heading>
@@ -78,10 +77,10 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         color="--first-color"
                         listStyleType="none"
                         >
-                        <ListItem>Lunes, Miércoles y Viernes 17hs</ListItem>
-                        <ListItem>Lunes, Miércoles y Viernes 18hs</ListItem>
-                        <ListItem>Lunes, Miércoles y Viernes 19hs</ListItem>
-                        <ListItem>Lunes, Miércoles y Viernes 20hs</ListItem>
+                        <ListItem>Lunes a Viernes 17hs</ListItem>
+                        <ListItem>Lunes a Viernes 18hs</ListItem>
+                        <ListItem>Lunes a Viernes 19hs</ListItem>
+                        <ListItem>Lunes a Jueves 20hs</ListItem>
                     </UnorderedList>
                 </Box>
             </Flex>
