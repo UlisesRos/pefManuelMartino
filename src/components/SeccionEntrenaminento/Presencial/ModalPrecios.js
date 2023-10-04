@@ -81,7 +81,7 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                         fontWeight="bold"
                         listStyleType="none"
                         >
-                        <ListItem>1 entrenamientos semanales: $4000</ListItem>
+                        <ListItem>1 entrenamiento semanal: $4000</ListItem>
                         <ListItem>2 entrenamientos semanales: $6400</ListItem>
                         <ListItem>3 entrenamientos semanales: $7200</ListItem>
                         <ListItem>4 entrenamientos semanales: $7700</ListItem>
