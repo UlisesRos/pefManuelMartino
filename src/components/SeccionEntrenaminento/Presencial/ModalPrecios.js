@@ -71,22 +71,8 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                         textAlign="center"
                         mt="8px"
                         >
-                        Precios
+                        Consultar Precios Por Privado
                     </Heading>
-                    <UnorderedList
-                        mt="5px"
-                        textAlign="center"
-                        color="--second-color"
-                        fontFamily="--second-font"
-                        fontWeight="bold"
-                        listStyleType="none"
-                        >
-                        <ListItem>1 entrenamiento semanal: $4000</ListItem>
-                        <ListItem>2 entrenamientos semanales: $6400</ListItem>
-                        <ListItem>3 entrenamientos semanales: $7200</ListItem>
-                        <ListItem>4 entrenamientos semanales: $7700</ListItem>
-                        <ListItem>5 entrenamientos semanales: $8500</ListItem>
-                    </UnorderedList>
                 </Box>
             </Flex>
             <Flex
