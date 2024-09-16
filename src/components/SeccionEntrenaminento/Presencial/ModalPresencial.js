@@ -7,11 +7,11 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
     return (
         <Box
             position="fixed"
-            top="100"
+            top="8"
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h="450px"
+            h="auto"
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"
@@ -57,9 +57,13 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         color="--first-color"
                         listStyleType="none"
                         >
+                        <ListItem>Lunes a Viernes 8hs</ListItem>
                         <ListItem>Lunes a Viernes 9hs</ListItem>
                         <ListItem>Lunes a Viernes 10hs</ListItem>
                         <ListItem>Lunes a Viernes 11hs</ListItem>
+                        <ListItem>Sabados 9:30hs</ListItem>
+                        <ListItem>Sabados 10:30hs</ListItem>
+                        <ListItem>Sabados 11:30hs</ListItem>
                     </UnorderedList>
                 </Box>
                 <Box>
@@ -77,10 +81,10 @@ const ModalPresencial = ({handleInfo, modalInfo}) => {
                         color="--first-color"
                         listStyleType="none"
                         >
+                        <ListItem>Lunes a Viernes 16hs</ListItem>
                         <ListItem>Lunes a Viernes 17hs</ListItem>
                         <ListItem>Lunes a Viernes 18hs</ListItem>
                         <ListItem>Lunes a Viernes 19hs</ListItem>
-                        <ListItem>Lunes a Jueves 20hs</ListItem>
                     </UnorderedList>
                 </Box>
             </Flex>

@@ -6,11 +6,11 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
     return (
         <Box
             position="fixed"
-            top="100"
+            top="150"
             zIndex="modal"
             border="solid 1px black"
             borderRadius="10px"
-            h="450px"
+            h="auto"
             w={["300px", "350px", "450px"]}
             p="10px"
             bg="--white-color"
@@ -27,13 +27,13 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                     fontFamily="--first-font"
                     fontWeight="bold"
                     textAlign="center"
-                    color="--second-color"
+                    color="--first-color"
                     >
                     Beneficios
                 </Heading>
                 <Box>
                     <Heading
-                        color="--second-color"
+                        color="--first-color"
                         fontFamily="--first-font"
                         fontSize="1rem"
                         textAlign="center"
@@ -44,19 +44,18 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                     <UnorderedList
                         mt="5px"
                         textAlign="center"
-                        color="--second-color"
+                        color="--first-color"
                         fontFamily="--second-font"
                         fontWeight="bold"
                         listStyleType="none"
                         >
                         <ListItem>10% OFF Estudiantes</ListItem>
                         <ListItem>10% OFF Jubilados</ListItem>
-                        <ListItem>10% OFF: Socios fundadores</ListItem>
-                        <ListItem>15% OFF: Grupo familiar (a partir de dos personas)</ListItem>
+                        <ListItem>10% OFF: Grupo familiar (a partir de tres personas)</ListItem>
                     </UnorderedList>
                     <Text
                         textAlign="center"
-                        color="--second-color"
+                        color="--first-color"
                         fontFamily="--second-font"
                         fontWeight="bold"
                         >
@@ -65,7 +64,7 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                 </Box>
                 <Box>
                     <Heading
-                        color="--second-color"
+                        color="--first-color"
                         fontFamily="--first-font"
                         fontSize="1rem"
                         textAlign="center"
@@ -79,10 +78,10 @@ const ModalPrecios = ({handleDesc, modalDesc}) => {
                 justify="center"
                 mt={["15px", "15px", "25px"]}>
                 <Button
-                    bg="--second-color"
+                    bg="--first-color"
                     color="--white-color"
                     _hover={{
-                        color: "--second-color",
+                        color: "--first-color",
                         bg: "--grey-light-color",
                         transform: "scale(1.1)"
                     }}

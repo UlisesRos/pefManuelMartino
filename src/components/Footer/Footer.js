@@ -25,10 +25,10 @@ const Footer = () => {
                         mb="10px"
                         textAlign="center"
                         >
-                        Encontranos en Mendoza 2952
+                        Encontranos en Cafferata 1130
                     </Text>
                     <Box>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.1536943813994!2d-60.666967985716624!3d-32.946951380920915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab5cddfe7f9b%3A0x56b0e4a9ae746daf!2sMendoza%202952%2C%20S2002PBP%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1678230272890!5m2!1ses-419!2sar" width="250" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" /> 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.2439069745774!2d-60.67479292531056!3d-32.944569271781944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab58fd1b667d%3A0x729e1e8a116dc288!2sCafferata%201130%2C%20S2002QXH%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1726519726484!5m2!1ses-419!2sar" width="250" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </Box>
                 </Box>
                 <Box

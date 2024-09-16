@@ -24,6 +24,7 @@ const TarjetaComentarios = ({prod}) => {
                         maxW={["150px","200px","200px"]}
                         border="solid black 1px"
                         borderRadius="100%"
+                        objectFit='cover'
                         mb="35px"
                         />
                     <Heading

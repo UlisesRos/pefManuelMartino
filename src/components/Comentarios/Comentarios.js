@@ -1,12 +1,14 @@
 import { Box, Heading } from "@chakra-ui/react"
 import SwiperComentarios from "./SwiperComentarios"
+import ulises from '../../img/ulisesros.png'
+import nico from '../../img/nico.png'
 
 
 const Comentarios = () => {
 
     const productos = [
         {
-            img: "https://pbs.twimg.com/profile_images/1562979614011535360/qM6em2kD_400x400.jpg",
+            img: ulises,
             nombre: "Ulises Ros",
             comentario: "De los mejores entrenadores de Rosario. Trabaja de manera muy personalizada con cada uno de los que estamos con el",
             alt: "imagen de la persona"
@@ -18,7 +20,7 @@ const Comentarios = () => {
             alt: "imagen de la persona"
         },
         {
-            img: "https://pbs.twimg.com/profile_images/1543784319742885902/1ouv9waY_400x400.jpg",
+            img: nico,
             nombre: "Nicolas Colombo",
             comentario: "Me gusta que dependiendo de lo que estes buscando, esa es la forma en la que te entrena.",
             alt: "imagen de la persona"
